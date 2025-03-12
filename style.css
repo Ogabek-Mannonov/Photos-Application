@@ -50,8 +50,78 @@ header {
   border-radius: 12px;
   font-size: 18px;
   border: solid gray 2px;
-} 
+}
 
 
 /* Main Section */
 
+main {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.cards {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 280px;
+  height: 350px;
+  background-color: white;
+  border-radius: 12px;
+  border: solid 2px black;
+}
+
+.top-part {
+  width: 280px;
+  height: 250px;
+  border-bottom: solid 2px black;
+}
+
+#card-img {
+  width: 280px;
+  height: 250px;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.bottom-part {
+  height: 60px;
+  width: 280px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#product-name {
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+#price {
+  font-size: 15px;
+}
+
+#product-btn {
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+
+.footer-part {
+  border-top: 1px solid black;
+  width: 280px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
